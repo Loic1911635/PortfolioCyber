@@ -308,6 +308,20 @@ input, select, textarea {
 	}
 
 /* Row */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-items: center;
+}
+
+.cert-grid img {
+    width: 100%;
+    max-width: 200px; /* Ajuste si nécessaire */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
 
 	.row {
 		display: flex;
